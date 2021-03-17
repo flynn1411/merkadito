@@ -1,4 +1,4 @@
-# Spree Starter (formerly Spark Starter Kit)
+# Spree Starter (formerly Spark Starter Kit) - Plataforma Merkadito
 
 [![Circle CI](https://circleci.com/gh/spree/spree_starter.svg?style=svg)](https://circleci.com/gh/spree/spree_starter) [![Maintainability](https://api.codeclimate.com/v1/badges/d240686c99b3d35eb61b/maintainability)](https://codeclimate.com/github/spree/spree_starter/maintainability)
 
