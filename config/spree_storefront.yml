@@ -1,21 +1,21 @@
 default:
   navigation:
-    - title: Mujeres
+    - title: Compra
       subtitle: Categories
-      url: /t/women
+      url: /t/compra
       items:
-        - :title: Skirts
-          :url: /t/women/skirts
-        - :title: Dresses
-          :url: /t/women/dresses
-        - :title: Shirts and Blouses
-          :url: /t/women/shirts-and-blouses
-        - :title: Sweaters
-          :url: /t/women/sweaters
-        - :title: Tops and T-shirts
-          :url: /t/women/tops-and-t-shirts
-        - :title: Jackets and Coats
-          :url: /t/women/jackets-and-coats
+        - :title: Tecnología
+          :url: /t/compra/tecnologia
+        - :title: Ropa
+          :url: /t/compra/ropa
+        - :title: Comida
+          :url: /t/compra/comida
+        - :title: Electrodomesticos
+          :url: /t/compra/electrodomesticos
+        - :title: Juguetes
+          :url: /t/compra/juguetes
+        - :title: Entretenimiento
+          :url: /t/compra/entretenimiento
       promo_banners:
         - subtitle: New collection
           title: Summer 2021
@@ -25,18 +25,18 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-percent-off
           image: 'meganav/promo_banner_right-first-category.jpg'
-    - title: Hombres
+    - title: Vende
       subtitle: Categories
-      url: /t/men
+      url: /t/venta
       items:
         - :title: Shirts
-          :url: /t/men/shirts
+          :url: /t/venta/shirts
         - :title: T-shirts
-          :url: /t/men/t-shirts
+          :url: /t/venta/t-shirts
         - :title: Sweaters
-          :url: /t/men/sweaters
+          :url: /t/venta/sweaters
         - :title: Jackets and Coats
-          :url: /t/men/jackets-and-coats
+          :url: /t/venta/jackets-and-coats
       promo_banners:
         - subtitle: New collection
           title: Summer 2021
