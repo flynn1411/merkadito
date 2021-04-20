@@ -46,9 +46,9 @@ default:
           title: Get up to 30% off
           url: /t/special-offers/30-percent-off
           image: 'meganav/promo_banner_right-second-category.jpg'
-    - title: Sportswear
+    - title: Sobre Nosotros
       subtitle: Categories
-      url: /t/sportswear
+      url: /info/quienessommos
       items:
         - :title: Tops
           :url: /t/sportswear/tops
