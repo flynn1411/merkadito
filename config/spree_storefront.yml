@@ -1,7 +1,7 @@
 default:
   navigation:
     - title: Compra
-      subtitle: Categories
+      subtitle: Categorias
       url: /t/compra
       items:
         - :title: Tecnología
@@ -17,54 +17,37 @@ default:
         - :title: Entretenimiento
           :url: /t/compra/entretenimiento
       promo_banners:
-        - subtitle: New collection
-          title: Summer 2021
-          url: /t/new-collection/summer-2021
+        - subtitle: Nueva iMac con chip M1
+          title: Apple LLega a Merkadito
+          url: /t/compra/tecnologia
           image: 'meganav/promo_banner_left-first-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-percent-off
+        - subtitle: Ofertas de Verano
+          title: 30% de descuento para usuarios Mayas
+          url: /t/compra
           image: 'meganav/promo_banner_right-first-category.jpg'
     - title: Vende
-      subtitle: Categories
-      url: /t/venta
+      subtitle: Vende en Merkadito
+      url: /vender
       items:
-        - :title: Shirts
-          :url: /t/venta/shirts
-        - :title: T-shirts
-          :url: /t/venta/t-shirts
-        - :title: Sweaters
-          :url: /t/venta/sweaters
-        - :title: Jackets and Coats
-          :url: /t/venta/jackets-and-coats
-      promo_banners:
-        - subtitle: New collection
-          title: Summer 2021
-          url: /t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-second-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-second-category.jpg'
+        - :title: ¿Cómo vender con Merkadito?
+          :url: /como-vender
+        - :title: Políticas de Venta
+          :url: /pilotocas-venta
+        - :title: Registrarse como Proveedor
+          :url: /registrar-proveedor
+        - :title: Tablero de Ventas
+          :url: /dashboard-proveedor
     - title: Sobre Nosotros
-      subtitle: Categories
-      url: /info/quienessommos
+      subtitle: Nuestra Empresa
+      url: /sobre-merkadito
       items:
-        - :title: Tops
-          :url: /t/sportswear/tops
-        - :title: Sweatshirts
-          :url: /t/sportswear/sweatshirts
-        - :title: Pants
-          :url: /t/sportswear/pants
-      promo_banners:
-        - subtitle: New collection
-          title: Summer 2021
-          url: /t/new-collection/summer-2021
-          image: 'meganav/promo_banner_left-third-category.jpg'
-        - subtitle: Special Offers
-          title: Get up to 30% off
-          url: /t/special-offers/30-percent-off
-          image: 'meganav/promo_banner_right-third-category.jpg'
+        - :title: Quienes Somos
+          :url: /sobre-merkadito#quienes-somos
+        - :title: Misión
+          :url: /sobre-merkadito#mision
+        - :title: Visión
+          :url: /sobre-merkadito#vision
+      
 fr:
   navigation:
     - title: Femmes
