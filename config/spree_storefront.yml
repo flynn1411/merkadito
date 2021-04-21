@@ -19,12 +19,12 @@ default:
       promo_banners:
         - subtitle: Nueva iMac con chip M1
           title: Apple LLega a Merkadito
-          url: /t/compra/tecnologia
-          image: 'meganav/promo_banner_left-first-category.jpg'
+          url: /t/compra/tecnologia/laptops
+          image: 'homepage/apple-m1.jpg'
         - subtitle: Ofertas de Verano
-          title: 30% de descuento para usuarios Mayas
+          title: Descuentos desde el 30%
           url: /t/compra
-          image: 'meganav/promo_banner_right-first-category.jpg'
+          image: 'homepage/promo-verano.jpg'
     - title: Vende
       subtitle: Vende en Merkadito
       url: /vender
@@ -32,7 +32,7 @@ default:
         - :title: ¿Cómo vender con Merkadito?
           :url: /como-vender
         - :title: Políticas de Venta
-          :url: /pilotocas-venta
+          :url: /politicas-venta
         - :title: Registrarse como Proveedor
           :url: /registrar-proveedor
         - :title: Tablero de Ventas

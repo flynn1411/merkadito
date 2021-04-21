@@ -4,11 +4,11 @@
   <img class="lazyload hero-image position-absolute"
     data-src="<%= asset_path('homepage/main_banner.jpg') %>"
     data-srcset="<%= image_source_set('homepage/main_banner') %>"
-    alt="Summer Collection">
+    alt="Promociones de Verano">
 
   <div class="hero-content">
     <div class="homepage-hero-image-text mb-2 mx-auto pb-3 pb-md-4">
-      Summer Collection
+      ¡El verano ha llegado a Merkadito!
     </div>
     <div>
       <%= link_to 'SHOP NOW', spree.products_path, class: 'btn btn-primary spree-btn px-5' %>
@@ -20,25 +20,25 @@
   <div class="row">
     <div class="col-6">
 
-      <%= link_to spree.nested_taxons_path('men'), class: "homepage-taxon-box mb-3" do %>
+      <%= link_to "/t/compra/tecnologia", class: "homepage-taxon-box mb-3" do %>
         <img class="w-100 lazyload"
           data-src="<%= asset_path('homepage/category_banner_upper.jpg') %>"
           data-srcset="<%= image_source_set('homepage/category_banner_upper') %>"
-          alt="Men">
+          alt="Tecnologia">
 
         <div class="homepage-taxon-box-text">
-          <h3>Men</h3>
+          <h3>Tecnología</h3>
         </div>
       <% end %>
 
-      <%= link_to spree.nested_taxons_path('sportswear'), class: "homepage-taxon-box" do %>
+      <%= link_to "/t/compra/ropa", class: "homepage-taxon-box" do %>
         <img class="w-100 lazyload"
           data-src="<%= asset_path('homepage/category_banner_lower.jpg') %>"
           data-srcset="<%= image_source_set('homepage/category_banner_lower') %>"
-          alt="Sportswear">
+          alt="Ropa">
 
-        <div class="homepage-taxon-box-text" role="img" aria-label="Sportswear">
-          <h3>Sportswear</h3>
+        <div class="homepage-taxon-box-text" role="img" aria-label="Ropa">
+          <h3>Ropa</h3>
         </div>
       <% end %>
 
@@ -46,14 +46,14 @@
 
     <div class="col-6 d-flex flex-column">
 
-      <%= link_to spree.nested_taxons_path('women'), class: "homepage-taxon-box flex-grow-1" do %>
+      <%= link_to "/t/compra/comida", class: "homepage-taxon-box flex-grow-1" do %>
         <img class="w-100 lazyload"
           data-src="<%= asset_path('homepage/big_category_banner.jpg') %>"
           data-srcset="<%= image_source_set('homepage/big_category_banner') %>"
-          alt="Women">
+          alt="Comida">
 
         <div class="homepage-taxon-box-text">
-          <h3>Women</h3>
+          <h3>Comida</h3>
         </div>
       <% end %>
 
@@ -79,19 +79,19 @@
 <div class="container">
   <div class="row">
     <div class="col-12 col-lg-6">
-      <%= link_to spree.nested_taxons_path('streetstyle') do %>
+      <%= link_to "/t/compra/entretenimiento" do %>
         <div class="homepage-bottom-box text-center mb-3">
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/promo_banner_left.jpg') %>"
             data-srcset="<%= image_source_set('homepage/promo_banner_left') %>"
-            alt="NEW COLLECTION">
+            alt="Entretenimiento">
 
           <div class="homepage-bottom-box-inner" role="img" aria-label="New Collection">
             <div class="homepage-bottom-box-inner-small-text">
-              New Collection
+              ¡Nuevos Productos!
             </div>
             <div class="homepage-bottom-box-inner-big-text">
-              Streetstyle
+              Entretenimiento
             </div>
           </div>
         </div>
@@ -99,19 +99,19 @@
     </div>
 
     <div class="col-12 col-lg-6">
-      <%= link_to spree.nested_taxons_path('summer-sale') do %>
+      <%= link_to "/t/compra/electrodomesticos" do %>
         <div class="homepage-bottom-box text-center mb-3">
           <img class="w-100 lazyload"
             data-src="<%= asset_path('homepage/promo_banner_right.jpg') %>"
             data-srcset="<%= image_source_set('homepage/promo_banner_right') %>"
-            alt="Summer Sale">
+            alt="Electrodomesticos">
 
           <div class="homepage-bottom-box-inner">
             <div class="homepage-bottom-box-inner-small-text">
-              Summer Sale
+              Lo Mejor para tu Hogar
             </div>
             <div class="homepage-bottom-box-inner-big-text">
-              Up To 60%
+              Comenzando desde Lps.300
             </div>
           </div>
         </div>
